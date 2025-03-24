@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Colaborativa</title>
+    <link rel="icon" href="https://pagina.cobachih.edu.mx/assets/images/planteles/pl9.png" type="image/x-icon">
+    <style>
+        /* Estilos Generales */
+        body {
+                font-family: 'Comic Sans MS', sans-serif; /* Fuente más llamativa */
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #ff6f61, #008cff, #88d8b0, #6a0572);
+            background-size: 400% 400%;
+            animation: fondoColorido 10s infinite alternate;
+            color: #fff;
+            text-align: center;
+        }
+
+        /* Animación de fondo */
+        @keyframes fondoColorido {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Encabezado */
+        header {
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 20px;
+            font-size: 32px;
+            font-weight: bold;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Navegación */
+        nav {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 12px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            transition: all 0.3s ease-in-out;
+        }
+
+        nav ul li a:hover {
+            color: #ffeb3b;
+            text-shadow: 0px 0px 10px #ffeb3b;
+        }
+
+        /* Secciones */
+        section {
+            padding: 40px;
+            margin: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            backdrop-filter: blur(8px);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            animation: slideIn 1.5s ease-in-out;
+        }
+
+        /* Estilos para imágenes */
+        .imagen {
+            width: 50%;
+            max-width: 400px;
+            border-radius: 15px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+            margin-top: 10px;
+            transition: transform 0.3s;
+        }
+
+        .imagen:hover {
+            transform: scale(1.1) rotate(3deg);
+        }
+
+        /* Créditos */
+        #creditos {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        #creditos ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #creditos ul li {
+            margin: 10px 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        Wiki Colaborativa: Convivencia Sana y No Discriminación 🌎
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">🏠 Inicio</a></li>
+            <li><a href="#tipos">🚫 Tipos de Discriminación</a></li>
+            <li><a href="#soluciones">✅ Convivencia Sana</a></li>
+            <li><a href="#propuestas">📌 Propuestas</a></li>
+            <li><a href="#creditos">🎖 Créditos</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio">
+        <h2> Bienvenidos a nuestra Wiki</h2>
+        <p>Aquí exploramos los diferentes tipos de discriminación en nuestra comunidad y cómo fomentar una convivencia sana.</p>
+        <img class="imagen" src="https://img.genial.ly/5e9cfdf9e60fef0fca6c2c1e/b6578b53-7e03-4962-a491-43741068af4c.png" alt="Personas unidas">
+    </section>
+
+    <section id="tipos">
+        <h2>🚫 Tipos de Discriminación</h2>
+        <ul>
+            <li>⚧️ Discriminación por género</li>
+            <li>🧑🏽‍🦱 Discriminación racial</li>
+            <li>🏳️‍🌈 Discriminación por orientación sexual</li>
+            <li>💰 Discriminación socioeconómica</li>
+            <li>👵 Discriminación por edad</li>
+            <li>🧠 Discriminación por discapacidad</li>
+            <li>🌍 Discriminación por nacionalidad o etnia</li>
+            <li>🎓 Discriminación educativa (por nivel académico o acceso a la educación)</li>
+
+        </ul>
+        <p>Identificar la discriminación es el primer paso para erradicarla.</p>
+    </section>
+    
+        <img class="imagen" src="https://png.pngtree.com/png-clipart/20230518/original/pngtree-diversity-different-culture-people-communication-vector-design-png-image_9163683.png" alt="Diversidad cultural">
+    </section>
+
+    <section id="soluciones">
+        <h2>✅ Cómo Promover la Convivencia Sana</h2>
+        <p>Para evitar la discriminación, podemos:</p>
+        <ul>
+            <li>✅ Fomentar el respeto y la empatía</li>
+            <li>✅ Promover la igualdad de oportunidades</li>
+            <li>✅ Denunciar actos discriminatorios</li>
+            <li>✅ Educar sobre la diversidad</li>
+            <li>✅ Crear espacios inclusivos</li>
+            <li>✅ Fomentar el diálogo abierto</li>
+            <li>✅ Incorporar políticas inclusivas en las instituciones</li>
+        </ul>
+        <img class="imagen" src="https://th.bing.com/th/id/R.255886499f6db12540d71a8801254055?rik=knf5S3ZNMOi1jw&riu=http%3a%2f%2f4.bp.blogspot.com%2f-YcqdfN09rp0%2fUiYaIWyg-WI%2fAAAAAAABHoc%2fT_YJs0RmGZE%2fs1600%2fSimbolo%2bPaz%2b2.jpg&ehk=OW3IIfSWGc6yYwf14W7h8qQkR1opjDWspFHoB2DFnWY%3d&risl=&pid=ImgRaw&r=0" alt="Símbolo de paz">
+    </section>
+
+    <section id="propuestas">
+        <h2>📌 Propuestas para una Comunidad Inclusiva</h2>
+        <ul>
+            <li>📚 Crear programas educativos sobre diversidad.</li>
+            <li>🎭 Realizar eventos culturales que celebren la inclusión.</li>
+            <li>📢 Implementar campañas contra el bullying y la discriminación.</li>
+            <li>🤝 Fomentar el diálogo y la mediación en conflictos.</li>
+            <li>📝 Crear una política de tolerancia cero ante la discriminación.</li>
+        </ul>
+        <img class="imagen" src="https://cdn.pixabay.com/photo/2013/07/12/15/35/community-150124_1280.png" alt=" trabajando juntos">
+    </section>
+
+    <section id="creditos">
+        <h2>🎖 Equipo</h2>
+        <ul>
+            <li>💻 <strong>Braulio Jesús Maroto Morales:</strong> Programación</li>
+            <li>📖 <strong>Joseline Michelle Bueno Delgado:</strong> Investigación</li>
+            <li>🎨 <strong>Briana Cecilia Munguia Perale:</strong> Diseño</li>
+            <li>📝 <strong>Addison Avril Mota Aguilera :</strong> Revisión</li>
+        </ul>
+        <p><strong>Grupo 259, Colegio de Bachilleres Plantel 9</strong></p>
+    </section>
+    
+
+    <footer>
+        Wiki Colaborativa - Proyecto de humanidades
+    </footer>
+
+</body>
+</html>
